@@ -58,7 +58,7 @@
     Rays.prototype.update = function() {
     this.velocity.add( this.acceleration );
     this.position.add( this.velocity );
-    this.lifeSpan -= 0.04;
+    this.lifeSpan -= 0.06;
     }
 
     /*
@@ -91,11 +91,15 @@
 /* Set the width of the side navigation to 250px */
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("imgProjects").style.right="250px";
+    //document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
 }
 
 /* Set the width of the side navigation to 0 */
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("imgProjects").style.right="0px";
+    //document.body.style.backgroundColor = "white";
 }
 
 

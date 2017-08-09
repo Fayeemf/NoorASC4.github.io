@@ -18,7 +18,7 @@ canvas {
         z-index: 1;
         top: 0;
         right: 0;
-        background-color: #111;
+        background-color: #d3d3d3;
         overflow-x: hidden;
         transition: 0.5s;
         padding-top: 60px;
@@ -44,3 +44,52 @@ canvas {
         font-size: 36px;
         margin-left: 50px;
     }
+
+
+#imgProjects {
+    position: absolute;
+    top:0;
+    right: 0;
+    height: 100%;
+    overflow:hidden;
+    transition: 0.5s;
+}
+#imgSkills {
+    position:absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    overflow:hidden;
+}
+#imgNoor {
+    position: absolute;
+    margin: 0 auto;
+    display:block;
+    top: 50px;
+    width:30%;
+    left: 34.5%;
+    border: solid white;
+
+}
+
+
+
+#contact {
+    position: absolute; 
+    top:90%;
+    left:40%;;
+    overflow:hidden; 
+}
+
+
+
+#name {
+    position: absolute;
+    margin: 0 auto;
+    display:block;
+    top: 80%;
+    width:30%;
+    left: 43%;
+    color:white;
+
+}

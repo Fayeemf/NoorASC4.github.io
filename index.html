@@ -8,8 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.js"></script>
-    <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.dom.min.js"></script>
-
+    <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.dom.min.js"></script> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- My Own Links -->
     <!-- <script src="script.js"></script>  -->
@@ -21,22 +22,25 @@
 
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#">About</a>
+  <!-- <a href="#">About</a>
   <a href="#">Services</a>
   <a href="#">Clients</a>
-  <a href="#">Contact</a>
+  <a href="#">Contact</a> -->
 </div>
 
 
 <!-- Use any element to open the sidenav -->
-<span onclick="openNav()">open</span>
+<span onclick="openNav()"><img id="imgProjects" src = "Projects.png"></span>
 
 <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
 <div id="main">
-  ...
+  <!-- <img id="imgProjects" src = "Projects.png"> -->
 </div>
 
 <body background = "background.jpg">
+<img id="imgNoor" src = "Nor.png">
+<img id="imgSkills" src = "Skills.png">
+<!-- <img id="imgProjects" src = "Projects.png"> -->
 <script>
   // This is called with the results from from FB.getLoginStatus().
   function statusChangeCallback(response) {
@@ -123,6 +127,23 @@
 </fb:login-button>
 
 <div id="status">
-</div
+</div>
+<div id="contact" class = "row contact">
+        <div class = "col-md-4">
+        <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a>
+        </div>
+        <div class = "col-md-4">
+        <a href="https://github.com/NoorASC4" target="_blank"><i class="fa fa-github-square fa-4x" aria-hidden="true"></i></a>
+        </div>
+        <div class = "col-md-4">
+        <a href="https://gmail.com" target="_blank"><i class="fa fa-envelope fa-4x" aria-hidden="true"></i></a>
+        </div>
+        </div>
+     </div>
 
+
+<div id="name">
+  <h1> Noor Raj </h1>
+
+</body>
 </html>
